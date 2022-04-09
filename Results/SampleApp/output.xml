@@ -1,69 +1,69 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<robot generator="Robot 5.0 (Python 3.8.5 on win32)" generated="20220407 17:52:21.502" rpa="false" schemaversion="3">
+<robot generator="Robot 5.0 (Python 3.8.5 on win32)" generated="20220409 21:28:22.501" rpa="false" schemaversion="3">
 <suite id="s1" name="Demo" source="C:\Users\Prathmesh\Training\RoboticFramework\Tests\SampleApp\FunctionalTestSuite\Demo.robot">
 <test id="s1-t1" name="login page test case" line="8">
 <kw name="Log" library="BuiltIn">
 <arg>hello</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220407 17:52:21.849" level="INFO">hello</msg>
-<status status="PASS" starttime="20220407 17:52:21.849" endtime="20220407 17:52:21.850"/>
+<msg timestamp="20220409 21:28:23.247" level="INFO">hello</msg>
+<status status="PASS" starttime="20220409 21:28:23.247" endtime="20220409 21:28:23.247"/>
 </kw>
 <doc>login for user</doc>
 <tag>user</tag>
-<status status="PASS" starttime="20220407 17:52:21.848" endtime="20220407 17:52:21.850"/>
+<status status="PASS" starttime="20220409 21:28:23.247" endtime="20220409 21:28:23.247"/>
 </test>
 <test id="s1-t2" name="Registration Page test case" line="13">
 <kw name="Log" library="BuiltIn">
 <arg>welcome</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220407 17:52:21.852" level="INFO">welcome</msg>
-<status status="PASS" starttime="20220407 17:52:21.852" endtime="20220407 17:52:21.852"/>
+<msg timestamp="20220409 21:28:23.247" level="INFO">welcome</msg>
+<status status="PASS" starttime="20220409 21:28:23.247" endtime="20220409 21:28:23.247"/>
 </kw>
 <doc>registration page for user</doc>
 <tag>user</tag>
-<status status="PASS" starttime="20220407 17:52:21.851" endtime="20220407 17:52:21.853"/>
+<status status="PASS" starttime="20220409 21:28:23.247" endtime="20220409 21:28:23.258"/>
 </test>
 <test id="s1-t3" name="Dashboard test case" line="18">
 <kw name="Log" library="BuiltIn">
 <arg>Dash</arg>
 <doc>Logs the given message with the given level.</doc>
-<msg timestamp="20220407 17:52:21.856" level="INFO">Dash</msg>
-<status status="PASS" starttime="20220407 17:52:21.856" endtime="20220407 17:52:21.856"/>
+<msg timestamp="20220409 21:28:23.258" level="INFO">Dash</msg>
+<status status="PASS" starttime="20220409 21:28:23.258" endtime="20220409 21:28:23.258"/>
 </kw>
 <doc>Dashboard for user</doc>
-<status status="PASS" starttime="20220407 17:52:21.854" endtime="20220407 17:52:21.856"/>
+<status status="PASS" starttime="20220409 21:28:23.258" endtime="20220409 21:28:23.258"/>
 </test>
 <test id="s1-t4" name="Google test case" line="22">
 <kw name="Open Browser" library="SeleniumLibrary">
 <arg>${url}</arg>
 <arg>chrome</arg>
 <doc>Opens a new browser instance to the optional ``url``.</doc>
-<msg timestamp="20220407 17:52:21.859" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
-<status status="PASS" starttime="20220407 17:52:21.859" endtime="20220407 17:52:27.480"/>
+<msg timestamp="20220409 21:28:23.258" level="INFO">Opening browser 'chrome' to base url 'https://www.google.com/'.</msg>
+<status status="PASS" starttime="20220409 21:28:23.258" endtime="20220409 21:28:29.531"/>
 </kw>
 <kw name="search data">
 <kw name="Input Text" library="SeleniumLibrary">
 <arg>name:q</arg>
 <arg>${search_parameter}</arg>
 <doc>Types the given ``text`` into the text field identified by ``locator``.</doc>
-<msg timestamp="20220407 17:52:27.485" level="INFO">Typing text 'Harman' into text field 'name:q'.</msg>
-<status status="PASS" starttime="20220407 17:52:27.484" endtime="20220407 17:52:27.740"/>
+<msg timestamp="20220409 21:28:29.532" level="INFO">Typing text 'Harman' into text field 'name:q'.</msg>
+<status status="PASS" starttime="20220409 21:28:29.532" endtime="20220409 21:28:29.697"/>
 </kw>
-<status status="PASS" starttime="20220407 17:52:27.483" endtime="20220407 17:52:27.740"/>
+<status status="PASS" starttime="20220409 21:28:29.531" endtime="20220409 21:28:29.697"/>
 </kw>
 <kw name="Submit Form" library="SeleniumLibrary">
 <doc>Submits a form identified by ``locator``.</doc>
-<msg timestamp="20220407 17:52:27.741" level="INFO">Submitting form 'None'.</msg>
-<status status="PASS" starttime="20220407 17:52:27.741" endtime="20220407 17:52:32.735"/>
+<msg timestamp="20220409 21:28:29.698" level="INFO">Submitting form 'None'.</msg>
+<status status="PASS" starttime="20220409 21:28:29.698" endtime="20220409 21:28:32.373"/>
 </kw>
 <kw name="Close Browser" library="SeleniumLibrary">
 <doc>Closes the current browser.</doc>
-<status status="PASS" starttime="20220407 17:52:32.736" endtime="20220407 17:52:35.144"/>
+<status status="PASS" starttime="20220409 21:28:32.373" endtime="20220409 21:28:34.650"/>
 </kw>
 <doc>simple google test</doc>
-<status status="PASS" starttime="20220407 17:52:21.858" endtime="20220407 17:52:35.144"/>
+<status status="PASS" starttime="20220409 21:28:23.258" endtime="20220409 21:28:34.651"/>
 </test>
-<status status="PASS" starttime="20220407 17:52:21.506" endtime="20220407 17:52:35.146"/>
+<status status="PASS" starttime="20220409 21:28:22.512" endtime="20220409 21:28:34.651"/>
 </suite>
 <statistics>
 <total>
